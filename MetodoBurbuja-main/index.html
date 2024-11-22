@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenamiento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ordenamiento Burbuja</h1>
+
+    <!-- Pestañas para seleccionar el array -->
+    <div class="tabs">
+        <button onclick="showTab(1)" class="tab-button active">Array 1</button>
+        <button onclick="showTab(2)" class="tab-button">Array 2</button>
+        <button onclick="showTab(3)" class="tab-button">Array 3</button>
+        <button onclick="showTab(4)" class="tab-button">Array 4</button>
+    </div>
+
+    <!-- Sección para mostrar el paso a paso de cada array -->
+    <div id="tab1" class="tab-content active">
+        <h2>Ordenamiento 1</h2>
+        <pre id="result1"></pre>
+    </div>
+
+    <div id="tab2" class="tab-content">
+        <h2>Ordenamiento 2</h2>
+        <pre id="result2"></pre>
+    </div>
+
+    <div id="tab3" class="tab-content">
+        <h2>Ordenamiento 3</h2>
+        <pre id="result3"></pre>
+    </div>
+
+    <div id="tab4" class="tab-content">
+        <h2>Ordenamiento 4</h2>
+        <pre id="result4"></pre>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
