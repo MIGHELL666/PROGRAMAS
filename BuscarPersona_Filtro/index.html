@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agregar y Buscar Personas</h1>
+        <form id="personForm">
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="middleName" placeholder="Middle Name">
+            <input type="text" id="maternalLastName" placeholder="Maternal Last Name" required>
+            <input type="text" id="paternalLastName" placeholder="Paternal Last Name" required>
+            <input type="number" id="day" placeholder="Day" min="1" max="31" required>
+            <input type="number" id="month" placeholder="Month" min="1" max="12" required>
+            <input type="number" id="year" placeholder="Year" min="1900" max="2023" required>
+            <button type="submit">Add Person</button>
+        </form>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        </div>
+        <ul id="results"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
