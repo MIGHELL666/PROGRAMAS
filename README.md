@@ -19,6 +19,20 @@ Una aplicación web para manejar productos de una tienda de verduras. Construida
 - Edición, eliminación y gestión de compras por peso o unidad.  
 - Interfaz amigable con un enfoque práctico.  
 
+### 🔨 [Sistema de Ferretería](#)
+Un sistema web diseñado para gestionar productos y operaciones en una ferretería. Construido con **JavaScript**, **HTML**, y **CSS**.  
+🔹 **Características principales**:  
+- Gestión de inventario, incluyendo adición y eliminación de productos.  
+- Actualización de precios y stock.  
+- Organización por categorías para facilitar la búsqueda.  
+
+### 👩‍💼 [Sistema de Gestión de Empleados](#)
+Un sistema robusto para agregar empleados y buscar información utilizando filtros avanzados. Este sistema está conectado a una base de datos para un manejo eficiente y persistente de la información.  
+🔹 **Características principales**:  
+- Registro de empleados con detalles personalizados.  
+- Búsqueda avanzada con filtros dinámicos.  
+- Conexión a una base de datos para almacenamiento seguro y eficiente.  
+
 ---
 
 ¡Explora los repositorios y no olvides dejar una estrella ⭐ si te gusta alguno de los proyectos! 😊
